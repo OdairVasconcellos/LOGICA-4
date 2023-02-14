@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mes</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <h1>Informe um numero de 01 a 12:</h1>
+        <input type="number" min="1" max="12" name="mes" id="mes">
+        <input type="button" class="botao" onclick="calcularmes (Number(document.getElementById('mes').value))" value="Ok">
+    </div>
+
+
+    <div class="conteiner">
+        <h1>Digite o Conceito:</h1>
+        <input type="text" name="conceito" id="conceito">
+        <input type="button" class="botao" onclick="conceitoaluno (document.getElementById('conceito').value)" value="Ok">
+    </div>
+
+    <script src="./Js/scrpit.js"></script>
+
+</body>
+
+</html>
